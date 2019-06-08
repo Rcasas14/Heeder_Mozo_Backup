@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://static.opentok.com/v2/js/opentok.js"></script>
+    <title>Opentok | Publisher</title>
+</head>
+
+<style>
+    .OT_publisher {
+        display: none;
+    }
+</style>
+
+<body>
+    <script>
+        var apiKey = '45828062';
+        var sessionId = '2_MX40NTgyODA2Mn5-MTU1OTU0NjE3Njg1OX56akNYUEVOQnBJOVdub1BEa3pqdEpQbnZ-UH4';
+        var token = 'T1==cGFydG5lcl9pZD00NTgyODA2MiZzaWc9ZTY5NWFhZTAxNTg4Zjk2NWFhMDA5ODZhYTJiYTdjNjIxMDdlNTA5OTpzZXNzaW9uX2lkPTJfTVg0ME5UZ3lPREEyTW41LU1UVTFPVFUwTmpFM05qZzFPWDU2YWtOWVVFVk9RbkJKT1ZkdWIxQkVhM3BxZEVwUWJuWi1VSDQmY3JlYXRlX3RpbWU9MTU1OTU0NjE4MyZub25jZT0wLjA4MzY0MjQ1NjE1NTY0MDE0JnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE1NTk2MzI1ODM=';
+
+        var session = OT.initSession(apiKey, sessionId);
+
+        session.connect(token, function (err) {
+            if (err) { alert(err); }
+            else {
+                alert("Connected to session!");
+                var pubOptions = { publishAudio: true, publishVideo: false };
+                publisher = OT.initPublisher(pubOptions);
+                session.publish(publisher);
+                alert("Published to session!");
+            }
+        });
+    </script>
+</body>
+
+</html>

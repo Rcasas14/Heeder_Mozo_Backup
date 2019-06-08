@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ASUS\\Desktop\\Testing Phase Capstone\\Staging\\heeder_mobile\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Cassie\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\462d604c37280efb4531822f07c557b7\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "287",
+                        "endColumns": "55",
+                        "endOffsets": "338"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ASUS\\Desktop\\ALL\\Staging\\heeder_mobile\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Cassie\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\462d604c37280efb4531822f07c557b7\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "287",
+                        "endColumns": "55",
+                        "endOffsets": "338"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

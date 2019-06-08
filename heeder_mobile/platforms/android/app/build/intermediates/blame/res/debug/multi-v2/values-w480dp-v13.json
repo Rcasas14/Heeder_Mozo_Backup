@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ASUS\\Desktop\\ALL\\Staging\\heeder_mobile\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Cassie\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\462d604c37280efb4531822f07c557b7\\res\\values-w480dp\\values-w480dp.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "289,586",
+                        "endColumns": "61,71",
+                        "endOffsets": "346,653"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ASUS\\Desktop\\Testing Phase Capstone\\Staging\\heeder_mobile\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Cassie\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\462d604c37280efb4531822f07c557b7\\res\\values-w480dp\\values-w480dp.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "289,586",
+                        "endColumns": "61,71",
+                        "endOffsets": "346,653"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        }
+    ]
+}

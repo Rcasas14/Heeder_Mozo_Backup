@@ -1,0 +1,17 @@
+Part [1] Start Laravel Artisan server
+Part [2] Build the mobile app
+
+
+Part 1:
+1. Go to CMD, type ipconfig -all. Find your Local IP, and copy it.
+2. Go to Laravel project folder, open Git Bash, and type php artisan serve --host <your local ip here>
+3. That's it for the laravel artisan server.
+
+Part 2:
+1. Open the project using any code editor (i.e Visual Studio Code).
+2. Open all the web files inside www folder.
+3. Change all the url variable of the web files inside <script> tag to your local ip (ex. var url = "http://192.168.0.33:8000")
+4. build the app using phonegap or cordova. ( $ cordova run android )
+5. That's it for the mobile app.
+
+YOU SHOULD NOW BE UP, AND RUNNING.
